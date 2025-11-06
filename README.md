@@ -6,8 +6,6 @@ import java.io.*;
 import java.util.*;
     // nag import din tayo ng "java.util" (scanner for input and arraylist naman for storing tasks)
 
-
-
 public class SimpleToDoList {
   // public class SimpleToDoList — defines your main class; the name must match your file name.
 
