@@ -18,11 +18,11 @@ public class SimpleToDoList
   static String fileName = "tasks.txt";
   // name of the file to save tasks
 
-public static void main(String[] args) {
+public static void main(String[] args) 
     loadTasks(); 
     // load existing tasks from file when program starts
 
-while (choice != 5) {
+while (choice != 5) 
   // while loop keeps the menu running until the user chooses option 5 (exit).
 
             System.out.println("\n======== TO-DO LIST ========");
