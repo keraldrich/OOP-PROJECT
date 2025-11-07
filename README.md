@@ -1,10 +1,10 @@
 // (COMMENT/EXPLANATION)
 
 import java.io.*;
-  //nag import tayo ng "java.io" (for read and write files)
+  //java.io (for read and write files)
   
 import java.util.*;
-    // nag import din tayo ng "java.util" (scanner for input and arraylist naman for storing tasks)
+    //java.util (scanner for input and arraylist naman for storing tasks)
 
 public class SimpleToDoList 
   // public class SimpleToDoList — defines your main class; the name must match your file name.
