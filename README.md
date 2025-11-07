@@ -77,9 +77,9 @@ input.nextLine();
             }
         }
     }
-// Shows the list of tasks.
-if (tasks.size() == 0) - checks if there are no tasks.
-If not empty, it prints each task one by one using a simple for-each loop.
+// Shows the list of tasks
+if (tasks.size() == 0) - checks if there are no tasks
+If not empty, it prints each task one by one using a simple for-each loop
 
     static void addTask() {
         System.out.print("Enter a new task: ");
@@ -88,8 +88,8 @@ If not empty, it prints each task one by one using a simple for-each loop.
         System.out.println("Task added!");
     }
 
-//Asks the user to type a new task.
-Adds the task to the ArrayList.
+//Asks the user to type a new task
+Adds the task to the ArrayList
 Confirms with “Task added!”
 
     static void editTask() {
@@ -111,10 +111,10 @@ Confirms with “Task added!”
         }
     }
 
-//Shows current tasks first.
-Checks if there are any to edit.
-The user chooses which task number to change.
-The program replaces that task with the new one using tasks.set(index, newValue).
+//Shows current tasks first
+Checks if there are any to edit
+The user chooses which task number to change
+The program replaces that task with the new one using tasks.set(index, newValue)
 
     static void deleteTask() {
       viewTasks();
@@ -133,9 +133,9 @@ The program replaces that task with the new one using tasks.set(index, newValue)
         }
     }
 
-//Displays all tasks.
-The user enters a number.
-The program removes that task from the list using tasks.remove(index).
+//Displays all tasks
+The user enters a number
+The program removes that task from the list using tasks.remove(index)
 
     static void saveTasks() {
       try {
@@ -149,9 +149,9 @@ The program removes that task from the list using tasks.remove(index).
         }
     }
 
-//FileWriter opens (or creates) a file called tasks.txt.
-Each task is written on its own line.
-try–catch handles errors, so if something goes wrong (like missing file permissions), the program won’t crash.
+//FileWriter opens (or creates) a file called tasks.txt
+Each task is written on its own line
+try–catch handles errors, so if something goes wrong (like missing file permissions), the program won’t crash
 
     static void loadTasks() {
       try {
@@ -169,6 +169,6 @@ try–catch handles errors, so if something goes wrong (like missing file permis
       }
     }
 
-//Checks if the file tasks.txt exists.
-If yes, it reads each line and adds it to the list.
-That’s how your tasks “come back” when you reopen the app.
+//Checks if the file tasks.txt exists
+If yes, it reads each line and adds it to the list
+That’s how your tasks “come back” when you reopen the app
