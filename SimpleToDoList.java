@@ -12,7 +12,7 @@ public class simpletodolist {
 
         int choice = 0;
 
-        // Repeat menu until user chooses to exit
+        // repeat menu until user chooses to exit
         while (choice != 5) {
             System.out.println("\n======== TO-DO LIST ========");
             System.out.println("||     1. View Tasks      ||");
@@ -136,4 +136,5 @@ public class simpletodolist {
         }
     }
 }
+
 
