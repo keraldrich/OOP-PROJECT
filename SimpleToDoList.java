@@ -21,12 +21,13 @@ public class SimpleToDoList {
             System.out.println("============================");
             System.out.print("Enter your choice:    ");
 
-
+            // read the user’s choice
+            choice = input.nextInt();
             input.nextLine(); // clear leftover newline
 
             // choose what to do
             if (choice == 1) {
-                viewTasks();
+                viewTasks()
             } else if (choice == 2) {
                 addTask();
             } else if (choice == 3) {
@@ -133,6 +134,7 @@ public class SimpleToDoList {
         }
     }
 }
+
 
 
 
