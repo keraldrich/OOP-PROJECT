@@ -29,7 +29,7 @@ public class SimpleToDoList {
 
             // choose what to do
             if (choice == 1) {
-                viewTasks()
+                viewTasks();
             } else if (choice == 2) {
                 addTask();
             } else if (choice == 3) {
@@ -136,10 +136,3 @@ public class SimpleToDoList {
         }
     }
 }
-
-
-
-
-
-
-
