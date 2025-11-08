@@ -1,7 +1,7 @@
 import java.io.*; // lets us read and write files
 import java.util.*; // lets us use Scanner and ArrayList
 
-public class simpletodolist {
+public class SimpleToDoList {
 
     static Scanner input = new Scanner(System.in); // to read user input
     static ArrayList<String> tasks = new ArrayList<>(); // list to store tasks
@@ -136,5 +136,6 @@ public class simpletodolist {
         }
     }
 }
+
 
 
