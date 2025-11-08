@@ -10,6 +10,8 @@ public class SimpleToDoList {
     public static void main(String[] args) {
         loadTasks(); // load existing tasks from file when program starts
 
+        int choice = 0;
+
         // repeat menu until user chooses to exit
         while (choice != 5) {
             System.out.println("\n======== TO-DO LIST ========");
@@ -134,6 +136,7 @@ public class SimpleToDoList {
         }
     }
 }
+
 
 
 
